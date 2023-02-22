@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap");
+
+body {
+    font-family: "Sono", sans-serif;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header_flex {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.header_logo img {
+    width: 150px;
+    cursor: pointer;
+}
+
+.header_links a {
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 100px;
+    color: rgb(104, 8, 194);
+    transition: 0.5s;
+    font-size: 16px;
+}
+
+.header_links a:hover {
+    color: #f7859c;
+    transform: scale(1.1);
+}
+
+.textbox {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.do {
+    padding-top: 50px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.do p {
+    display: inline;
+}
+
+footer {
+    margin-top: 8%;
+    height: 60vh;
+    width: 100%;
+    background-image: url("./images/footer.jpg");
+    background-position: top;
+    background-size: cover;
+}
+
+.footer {
+    width: 80%;
+    text-align: center;
+    padding-top: 10%;
+    margin: auto;
+}
+
+footer h4 {
+    font-size: 24px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.footer img {
+    width: 150px;
+}
+
+.iconss .fa-brands {
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+.fa-brands,
+.fa-heart {
+    color: rgb(59, 0, 114);
+    font-size: 18px;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+    list-style: none;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+form {
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
